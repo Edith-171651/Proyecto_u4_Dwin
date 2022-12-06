@@ -1,0 +1,17 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WEB_API_ESCUELA
+build_property.RootNamespace = WEB_API_ESCUELA
+build_property.ProjectDir = C:\Users\edith\OneDrive\Escritorio\23_ESCUELA_PROYECTO_v4\WEB_API\WEB_API_ESCUELA\WEB_API_ESCUELA\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\edith\OneDrive\Escritorio\23_ESCUELA_PROYECTO_v4\WEB_API\WEB_API_ESCUELA\WEB_API_ESCUELA
+build_property._RazorSourceGeneratorDebug = 
