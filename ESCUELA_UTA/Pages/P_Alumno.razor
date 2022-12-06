@@ -1,0 +1,91 @@
+﻿@page "/alumno"
+
+<div class="container">
+
+    <h3>Modulo Alumnos</h3>
+    <div class="form-field">
+        <label>Id:</label>
+        <div>
+            <input type="text" id="id" @bind="Alumno.Id" />
+        </div>
+    </div>
+    <div class="form-field">
+        <label>Nombre:</label>
+        <div>
+            <input type="text" id="Nombre" @bind="Alumno.Nombre" />
+        </div>
+    </div>
+    <div class="form-field">
+        <label>Apellido Paterno:</label>
+        <div>
+            <input type="text" id="Apellido_P" @bind="Alumno.ApellidoP">
+        </div>
+    </div>
+    <div class="form-field">
+        <label>Apellido Materno:</label>
+        <div>
+            <input type="text" id="Apellido_M" @bind="Alumno.ApellidoM">
+        </div>
+    </div>
+
+    <div class="form-field">
+        <label>Grado:</label>
+        <div>
+            <input type="text" id="Grado" @bind="Alumno.Grado">
+        </div>
+    </div>
+
+
+    <div class="form-field">
+        <label>Grupo:</label>
+        <div>
+            <input type="text" id="Grupo" @bind="Alumno.Grupo">
+        </div>
+    </div>
+
+
+
+
+    <div class="form-field mt-2 mb-2">
+        <button @onclick="AddAlumno"
+                class="btn btn-primary">
+            Alta
+        </button>
+        <button @onclick="ShowAlumno"
+                class="btn btn-primary">
+            Mostrar
+        </button>
+        <button @onclick="FindById"
+                class="btn btn-primary">
+            Buscar por Id
+        </button>
+        <button @onclick="UpdateAlumno"
+                class="btn btn-primary">
+            Modificar
+        </button>
+
+        <button @onclick="DeleteAlumno"
+                class="btn btn-primary">
+            Eliminar
+        </button>
+    </div>
+
+    <div>@Message</div>
+    <div>
+        <table id="Alumno"
+               class="table table-bordered table-striped table-hover table-sm">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido_P</th>
+                    <th>Apellido_M</th>
+                    <th>Grado</th>
+                    <th>Grupo</th>
+
+                </tr>
+            </thead>
+            <tbody>@TBody</tbody>
+        </table>
+    </div>
+</div>
